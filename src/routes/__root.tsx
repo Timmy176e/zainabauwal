@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Zainab Auwal | Freelance Project Coordinator | Data Annotation & Transcription Specialist" },
+      { name: "description", content: "Professional freelance Project Coordinator, Data Annotation and Transcription Specialist providing AI data labeling, transcription, quality assurance, dataset preparation, and project coordination services for Artificial Intelligence and Machine Learning projects." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Zainab Auwal | Freelance Project Coordinator | Data Annotation & Transcription Specialist" },
+      { property: "og:description", content: "Professional freelance Project Coordinator, Data Annotation and Transcription Specialist providing AI data labeling, transcription, quality assurance, dataset preparation, and project coordination services for Artificial Intelligence and Machine Learning projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Zainab Auwal | Freelance Project Coordinator | Data Annotation & Transcription Specialist" },
+      { name: "twitter:description", content: "Professional freelance Project Coordinator, Data Annotation and Transcription Specialist providing AI data labeling, transcription, quality assurance, dataset preparation, and project coordination services for Artificial Intelligence and Machine Learning projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/293ea6c6-ca05-414b-887e-afc96fb24e65/id-preview-fcdcca33--4b2f8d8c-1f72-42bc-a81f-0fb548f6c285.lovable.app-1784665477577.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/293ea6c6-ca05-414b-887e-afc96fb24e65/id-preview-fcdcca33--4b2f8d8c-1f72-42bc-a81f-0fb548f6c285.lovable.app-1784665477577.png" },
     ],
     links: [
       {
