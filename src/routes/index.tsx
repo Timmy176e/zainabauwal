@@ -7,9 +7,9 @@ import {
   ArrowRight, X, Menu, Zap, TrendingUp, Star,
 } from "lucide-react";
 import heroImg from "@/assets/hero-ai.jpg";
-import dash1 from "@/assets/dashboard1.asset.json";
-import dash2 from "@/assets/dashboard2.asset.json";
-import dash3 from "@/assets/dashboard3.asset.json";
+const dash1 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668142/IMG-20260721-WA0054_wwmpen.jpg";
+const dash2 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0055_tabkbt.jpg";
+const dash3 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0056_xrakxv.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -118,9 +118,9 @@ const portfolioProjects = [
 ];
 
 const dashboards = [
-  { src: dash1.url, title: "AI Annotation Performance Dashboard", desc: "Displays annotation productivity, completed HITs, judging hours, and overall quality assurance metrics." },
-  { src: dash2.url, title: "Quality Assurance Performance Report", desc: "Shows completed tasks, average QA score, payable score, and annotation quality across AI data projects." },
-  { src: dash3.url, title: "AI Project Performance Summary", desc: "Highlights additional project performance metrics, productivity, and quality evidence." },
+  { src: dash1, title: "AI Annotation Performance Dashboard", desc: "Displays annotation productivity, completed HITs, judging hours, and overall quality assurance metrics." },
+  { src: dash2, title: "Quality Assurance Performance Report", desc: "Shows completed tasks, average QA score, payable score, and annotation quality across AI data projects." },
+  { src: dash3, title: "AI Project Performance Summary", desc: "Highlights additional project performance metrics, productivity, and quality evidence." },
 ];
 
 const stats = [
