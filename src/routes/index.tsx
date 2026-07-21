@@ -118,9 +118,9 @@ const portfolioProjects = [
 ];
 
 const dashboards = [
-  { src: dash1.url, title: "AI Annotation Performance Dashboard", desc: "Displays annotation productivity, completed HITs, judging hours, and overall quality assurance metrics." },
-  { src: dash2.url, title: "Quality Assurance Performance Report", desc: "Shows completed tasks, average QA score, payable score, and annotation quality across AI data projects." },
-  { src: dash3.url, title: "AI Project Performance Summary", desc: "Highlights additional project performance metrics, productivity, and quality evidence." },
+  { src: dash1, title: "AI Annotation Performance Dashboard", desc: "Displays annotation productivity, completed HITs, judging hours, and overall quality assurance metrics." },
+  { src: dash2, title: "Quality Assurance Performance Report", desc: "Shows completed tasks, average QA score, payable score, and annotation quality across AI data projects." },
+  { src: dash3, title: "AI Project Performance Summary", desc: "Highlights additional project performance metrics, productivity, and quality evidence." },
 ];
 
 const stats = [
