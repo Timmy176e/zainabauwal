@@ -145,7 +145,7 @@ function Nav() {
     <header className={`fixed top-0 inset-x-0 z-50 transition-all ${scrolled ? "glass-card !rounded-none border-b" : "bg-transparent"}`}>
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
-          <span className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center text-white text-sm">ZA</span>
+          <img src={logoImg} alt="Zainab Auwal logo" className="w-9 h-9 rounded-lg object-cover border border-primary/10" />
           <span className="gradient-text">Zainab Auwal</span>
         </a>
         <nav className="hidden lg:flex items-center gap-7">
