@@ -9,7 +9,8 @@ import {
 import heroImg from "@/assets/hero-ai.jpg";
 const dash1 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668142/IMG-20260721-WA0054_wwmpen.jpg";
 const dash2 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0055_tabkbt.jpg";
-const dash3 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0056_xrakxv.jpg";
+const dash3 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784671421/IMG-20260721-WA0064_lngxyt.jpg";
+const logoImg = "https://res.cloudinary.com/jdenheg8/image/upload/v1784670034/IMG-20260721-WA0063_exqwq6.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -126,7 +127,7 @@ const dashboards = [
 const stats = [
   { value: "5,000+", label: "Completed Annotation Tasks", icon: CheckCircle2 },
   { value: "0.96", label: "Average QA Score", icon: Star },
-  { value: "54+", label: "Judging Hours", icon: Clock },
+  { value: "700+", label: "Judging Hours", icon: Clock },
   { value: "High", label: "Dataset Accuracy", icon: Target },
   { value: "On-Time", label: "Project Delivery", icon: Zap },
   { value: "Consistent", label: "AI Data Quality", icon: TrendingUp },
@@ -240,7 +241,7 @@ function Index() {
             <div className="mt-10 grid grid-cols-3 gap-4 max-w-md">
               <div><div className="font-display text-2xl font-bold gradient-text">5K+</div><div className="text-xs text-muted-foreground">HITs Completed</div></div>
               <div><div className="font-display text-2xl font-bold gradient-text">0.96</div><div className="text-xs text-muted-foreground">QA Score</div></div>
-              <div><div className="font-display text-2xl font-bold gradient-text">54+</div><div className="text-xs text-muted-foreground">Judging Hours</div></div>
+              <div><div className="font-display text-2xl font-bold gradient-text">700+</div><div className="text-xs text-muted-foreground">Judging Hours</div></div>
             </div>
           </div>
           <div className="relative animate-float">
