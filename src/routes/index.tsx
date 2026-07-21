@@ -7,9 +7,9 @@ import {
   ArrowRight, X, Menu, Zap, TrendingUp, Star,
 } from "lucide-react";
 import heroImg from "@/assets/hero-ai.jpg";
-import dash1 from "@/assets/dashboard1.asset.json";
-import dash2 from "@/assets/dashboard2.asset.json";
-import dash3 from "@/assets/dashboard3.asset.json";
+const dash1 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668142/IMG-20260721-WA0054_wwmpen.jpg";
+const dash2 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0055_tabkbt.jpg";
+const dash3 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0056_xrakxv.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
