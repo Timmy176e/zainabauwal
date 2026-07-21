@@ -9,7 +9,8 @@ import {
 import heroImg from "@/assets/hero-ai.jpg";
 const dash1 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668142/IMG-20260721-WA0054_wwmpen.jpg";
 const dash2 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0055_tabkbt.jpg";
-const dash3 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784668132/IMG-20260721-WA0056_xrakxv.jpg";
+const dash3 = "https://res.cloudinary.com/jdenheg8/image/upload/v1784671421/IMG-20260721-WA0064_lngxyt.jpg";
+const logoImg = "https://res.cloudinary.com/jdenheg8/image/upload/v1784670034/IMG-20260721-WA0063_exqwq6.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -126,7 +127,7 @@ const dashboards = [
 const stats = [
   { value: "5,000+", label: "Completed Annotation Tasks", icon: CheckCircle2 },
   { value: "0.96", label: "Average QA Score", icon: Star },
-  { value: "54+", label: "Judging Hours", icon: Clock },
+  { value: "700+", label: "Judging Hours", icon: Clock },
   { value: "High", label: "Dataset Accuracy", icon: Target },
   { value: "On-Time", label: "Project Delivery", icon: Zap },
   { value: "Consistent", label: "AI Data Quality", icon: TrendingUp },
@@ -144,7 +145,7 @@ function Nav() {
     <header className={`fixed top-0 inset-x-0 z-50 transition-all ${scrolled ? "glass-card !rounded-none border-b" : "bg-transparent"}`}>
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
-          <span className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center text-white text-sm">ZA</span>
+          <img src={logoImg} alt="Zainab Auwal logo" className="w-9 h-9 rounded-lg object-cover border border-primary/10" />
           <span className="gradient-text">Zainab Auwal</span>
         </a>
         <nav className="hidden lg:flex items-center gap-7">
@@ -240,7 +241,7 @@ function Index() {
             <div className="mt-10 grid grid-cols-3 gap-4 max-w-md">
               <div><div className="font-display text-2xl font-bold gradient-text">5K+</div><div className="text-xs text-muted-foreground">HITs Completed</div></div>
               <div><div className="font-display text-2xl font-bold gradient-text">0.96</div><div className="text-xs text-muted-foreground">QA Score</div></div>
-              <div><div className="font-display text-2xl font-bold gradient-text">54+</div><div className="text-xs text-muted-foreground">Judging Hours</div></div>
+              <div><div className="font-display text-2xl font-bold gradient-text">700+</div><div className="text-xs text-muted-foreground">Judging Hours</div></div>
             </div>
           </div>
           <div className="relative animate-float">
@@ -487,7 +488,8 @@ function Index() {
       {/* FOOTER */}
       <footer className="py-12 border-t border-border">
         <div className="mx-auto max-w-6xl px-6 text-center">
-          <div className="font-display font-bold text-xl gradient-text">Zainab Auwal</div>
+          <img src={logoImg} alt="Zainab Auwal logo" className="w-12 h-12 rounded-xl object-cover mx-auto border border-primary/10" />
+          <div className="font-display font-bold text-xl gradient-text mt-3">Zainab Auwal</div>
           <div className="text-sm text-muted-foreground mt-1">Freelance Project Coordinator | Data Annotation & Transcription Specialist</div>
           <div className="text-sm text-muted-foreground mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             <span className="inline-flex items-center gap-2"><Mail className="w-4 h-4" /> zainab493131@gmail.com</span>
