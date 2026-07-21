@@ -488,7 +488,8 @@ function Index() {
       {/* FOOTER */}
       <footer className="py-12 border-t border-border">
         <div className="mx-auto max-w-6xl px-6 text-center">
-          <div className="font-display font-bold text-xl gradient-text">Zainab Auwal</div>
+          <img src={logoImg} alt="Zainab Auwal logo" className="w-12 h-12 rounded-xl object-cover mx-auto border border-primary/10" />
+          <div className="font-display font-bold text-xl gradient-text mt-3">Zainab Auwal</div>
           <div className="text-sm text-muted-foreground mt-1">Freelance Project Coordinator | Data Annotation & Transcription Specialist</div>
           <div className="text-sm text-muted-foreground mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             <span className="inline-flex items-center gap-2"><Mail className="w-4 h-4" /> zainab493131@gmail.com</span>
